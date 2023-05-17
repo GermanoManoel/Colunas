@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lexend+Deca&family=Passion+One&display=swap');
+
+:root{
+    --font1: font-family: 'Gloock', serif;
+    --font2: 'Lexend Deca', sans-serif;
+    --font3: 'Passion One', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font2);
+    font-size: 11px;
+    font-weight: normal;
+}
+
+div.caixa{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div.caixa .sedans{
+    background-color: hsl(31, 77%, 52%);
+    width: 18rem;
+    height: 40em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+div.caixa .suvs{
+    background-color:hsl(184, 100%, 22%);
+    width: 18rem;
+}
+
+div.caixa .luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 18rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img{
+    margin: 30px 40px;
+}
+
+h2 {
+    margin: 10px;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    left: 2rem;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.8em;
+    position: relative;
+    left: 2em;
+    width: 250px;
+    transform: scale(90%);
+}
+
+button{
+    background-color: transparent;
+    font-family: var(--font2);
+    color: white;
+    position: relative;
+    top: 5em;
+    left: 3.5em;
+    width: 130px;
+    height:40px;
+    border-radius: 20px;
+    border:2px solid white;
+    cursor:pointer;
+}

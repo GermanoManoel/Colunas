@@ -1,0 +1,36 @@
+@media screen and (max-width:888px){
+    div.caixa{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%) scale(70%);
+    }
+
+    div.caixa .sedans{
+        background-color: hsl(31, 77%, 52%);
+        width: 18rem;
+        height: 40em;
+        margin-top: 30rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0%;
+    }
+
+    div.caixa .suvs{
+        background-color:hsl(184, 100%, 22%);
+        width: 18rem;
+        height: 40em;
+    }
+
+    div.caixa .luxury{
+        background-color: hsl(179, 100%, 13%);
+        width: 18rem;
+        height: 40em;
+        margin-bottom: 1rem;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
