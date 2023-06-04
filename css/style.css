@@ -72,9 +72,10 @@ p{
 }
 
 button{
-    background-color: transparent;
+    background-color: white;
     font-family: var(--font2);
-    color: white;
+    color: black;
+    font-weight: bold;
     position: relative;
     top: 5em;
     left: 3.5em;
@@ -83,4 +84,10 @@ button{
     border-radius: 20px;
     border:2px solid white;
     cursor:pointer;
+    transition: 1.5s ease;
+}
+
+button:hover{
+    background-color: transparent;
+    color: white;
 }
